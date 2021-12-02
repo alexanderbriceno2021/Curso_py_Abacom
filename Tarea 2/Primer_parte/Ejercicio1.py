@@ -31,8 +31,8 @@ while True:
     elif operacion == 3:
         print("La multiplicación de", num1, "*", num2, "=", num1*num2)
 
-    elif operacion == 4:
-        break
+    elif operacion > 4:
+        print("\nOperacion no es correcta...!!!!!")
 
     else:
-        print("La opcion no esta contenplada")
+        break
