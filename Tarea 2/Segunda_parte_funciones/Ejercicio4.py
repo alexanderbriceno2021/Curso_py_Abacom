@@ -3,3 +3,10 @@
 Nota: El número intermedio de dos números corresponde a la suma de los dos números dividida entre 2
 Comprueba el punto intermedio entre -12 y 24
 """
+
+
+def intermedio(num1, num2):
+    return (num1 + num2) / 2
+
+
+print(intermedio(-12, 24))
