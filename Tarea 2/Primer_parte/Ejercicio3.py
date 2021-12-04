@@ -8,10 +8,21 @@ El tercer parámetro en la función range(inicio, fin, salto) indica un salto de
 
 # Solucion 1 simple
 suma = sum(range(0, 101, 2))
-print(suma)
+print("la suma es :", suma)
+
+# solucion 2 "función"
 
 
-# solucion 2 "for"
+def suma_pares():
+    suma = sum(range(0, 100, 2))
+    print(suma)
+
+
+print("\nLa suma es: ", end="")
+suma_pares()
+
+
+# solucion 3 "for"
 suma = 0
 
 num1 = int(input('Numero inicial:'))
@@ -24,14 +35,3 @@ for i in range(num1, num2+1):
         suma += i
 
 print('\nLa suma es : ', suma)
-
-# solucion 3 "función"
-
-
-def suma_pares():
-    suma = sum(range(0, 100, 2))
-    print(suma)
-
-
-print("\nLa suma es: ")
-suma_pares()
