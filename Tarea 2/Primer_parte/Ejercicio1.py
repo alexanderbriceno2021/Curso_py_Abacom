@@ -14,7 +14,7 @@ num2 = int(input("Introduce el segundo número: "))
 
 while True:
 
-    print("\nQue Operacion quieres realizar\n")
+    print("\n", "Que Operacion quieres realizar", "\n")
     print("1) Suma")
     print("2) Resta")
     print("3) Multiplicación")
